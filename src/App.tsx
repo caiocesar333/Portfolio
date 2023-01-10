@@ -1,6 +1,7 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { Navbar } from './components/Navbar/Navbar';
+import { Home } from './components/Pages/Home';
 import { Container, Content } from './style/global';
 
 const theme ={
@@ -23,6 +24,7 @@ function App() {
       <Container theme={theme.dark.background} color={theme.dark.text}>
         <Content>
           <Navbar/>
+          <Home/>
         </Content>
       </Container>
     </ThemeProvider>

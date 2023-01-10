@@ -9,20 +9,20 @@ export function Navbar() {
             <Logo src={logo} alt={"Caio Logo"}></Logo>
             <TabsWrapper>
                 <TextWrapper>
-                    <SmallText text='#' color='true'/>
-                    <SmallText text='Home' color='false'/>
+                    <SmallText text='#' color='true' about="No hover"/>
+                    <SmallText text='Home' color='false' about="hover"/>
                 </TextWrapper>
                 <TextWrapper>
-                    <SmallText text='#' color='true'/>
-                    <SmallText text='Works' color='false'/>
+                    <SmallText text='#' color='true'  about="No hover"/>
+                    <SmallText text='Works' color='false' about="hover"/>
                 </TextWrapper>
                 <TextWrapper>
-                    <SmallText text='#' color='true'/>
-                    <SmallText text='About Me' color='false'/>
+                    <SmallText text='#' color='true'  about="No hover"/>
+                    <SmallText text='About Me' color='false' about="hover"/>
                 </TextWrapper>
                 <TextWrapper>
-                    <SmallText text='#' color='true'/>
-                    <SmallText text='Contact' color='false'/>
+                    <SmallText text='#' color='true'  about="No hover"/>
+                    <SmallText text='Contact' color='false' about="hover"/>
                 </TextWrapper>
             </TabsWrapper>
         </Container>

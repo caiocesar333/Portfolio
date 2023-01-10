@@ -4,10 +4,11 @@ import { Small } from './style';
 interface SmallTextProps{
     color?:string | undefined,
     text:string,
+    about: string,
 }
 
-export function SmallText({color,text}:SmallTextProps) {
+export function SmallText({color,text,about}:SmallTextProps) {
     return (
-        <Small color={color}>{text}</Small>
+        <Small color={color} about={about}>{text}</Small>
     )
 }
