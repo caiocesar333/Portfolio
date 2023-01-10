@@ -2,6 +2,7 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { Navbar } from './components/Navbar/Navbar';
 import { Home } from './components/Pages/Home';
+import { Quote } from './components/Quote/Quote';
 import { Container, Content } from './style/global';
 
 const theme ={
@@ -25,6 +26,7 @@ function App() {
         <Content>
           <Navbar/>
           <Home/>
+          <Quote/>
         </Content>
       </Container>
     </ThemeProvider>
