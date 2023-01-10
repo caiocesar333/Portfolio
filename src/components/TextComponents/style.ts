@@ -36,3 +36,9 @@ export const ButtonT = styled.p`
     line-height: 21px;
     color: #FFFFFF;
 `
+
+export const ViewAllDiv = styled.div`
+    display: flex;
+    width: 300px;
+    justify-content: flex-end;
+`;

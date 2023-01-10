@@ -3,6 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import { Navbar } from './components/Navbar/Navbar';
 import { Home } from './components/Pages/Home';
 import { Quote } from './components/Quote/Quote';
+import { Projects } from './components/Sections/Projects/Projects';
 import { Container, Content } from './style/global';
 
 const theme ={
@@ -27,6 +28,7 @@ function App() {
           <Navbar/>
           <Home/>
           <Quote/>
+          <Projects/>
         </Content>
       </Container>
     </ThemeProvider>
