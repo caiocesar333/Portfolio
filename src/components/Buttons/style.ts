@@ -14,4 +14,5 @@ export const Container = styled.div`
        background: rgba(199, 120, 221, 0.2);
         transition: 200ms;
     }
+    margin-left: 5px;
 `;

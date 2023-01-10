@@ -3,8 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
     width: 100%;
     display: flex;
-    align-items: center;
-    gap: 25px;
     margin-bottom: 100px;
     justify-content: space-between;
 `;
@@ -19,19 +17,28 @@ export const Wrapper = styled.div`
     display: flex;
     align-items: center;
     gap: 5px;
+    margin-bottom: 50px;
 `;
 
 
 export const Line = styled.div`
-    width: 711px;
+    width: 411px;
     height: 1px;
     background: #C778DD;
 `;
 
-export const ProjectWrapper = styled.div`
+export const SquaresImage = styled.img`
+    width: 349px;
+    height: 282px;
+    margin: 50px;
+`
+
+
+export const SkillsBoxWrapper = styled.div`
+    height: 500px;
     display: flex;
-    align-items: center;
-    gap: 70px;
-    flex-direction: row wrap;
-    overflow: hidden;
-`;
+    gap: 25px;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-left: 20px;
+`

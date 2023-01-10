@@ -10,6 +10,7 @@ export const Small = styled.p`
         color: ${props=>props.about === "hover" ? "white" : "#ABB2BF"};
         cursor: ${props=>props.about === "hover" ? "pointer" : "text"}
     }
+    padding-left: 5px;
 `;
 
 export const Medium = styled.h3`
@@ -39,6 +40,5 @@ export const ButtonT = styled.p`
 
 export const ViewAllDiv = styled.div`
     display: flex;
-    width: 300px;
-    justify-content: flex-end;
-`;
+    margin-top: 40px;
+    `;
