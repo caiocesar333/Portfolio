@@ -30,8 +30,5 @@ export const Line = styled.div`
 
 export const ProjectWrapper = styled.div`
     display: flex;
-    align-items: center;
-    gap: 70px;
-    flex-direction: row wrap;
-    overflow: hidden;
+    justify-content: space-between;
 `;
