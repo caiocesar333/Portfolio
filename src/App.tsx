@@ -4,6 +4,7 @@ import { Navbar } from './components/Navbar/Navbar';
 import { Home } from './components/Pages/Home';
 import { Quote } from './components/Quote/Quote';
 import { AboutMe } from './components/Sections/AboutMe/AboutMe';
+import { Contacts } from './components/Sections/Contacts/Contacts';
 import { Projects } from './components/Sections/Projects/Projects';
 import { Skills } from './components/Sections/Skills/Skills';
 import { Container, Content } from './style/global';
@@ -33,6 +34,7 @@ function App() {
           <Projects/>
           <Skills/>
           <AboutMe/>
+          <Contacts/>
         </Content>
       </Container>
     </ThemeProvider>
