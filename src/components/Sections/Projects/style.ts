@@ -31,4 +31,11 @@ export const Line = styled.div`
 export const ProjectWrapper = styled.div`
     display: flex;
     justify-content: space-between;
+    flex-flow: row wrap;
+    gap: 10px;
+`;
+
+export const LargeProjectWrapper = styled.div`
+    display: flex;
+    gap: 70px;
 `;
