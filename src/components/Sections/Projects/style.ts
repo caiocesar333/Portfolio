@@ -37,5 +37,6 @@ export const ProjectWrapper = styled.div`
 
 export const LargeProjectWrapper = styled.div`
     display: flex;
-    gap: 70px;
+    flex-flow: ROW wrap;
+    gap: 50px;
 `;

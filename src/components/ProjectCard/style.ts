@@ -17,4 +17,6 @@ export const Wrapper = styled.div`
 `
 
 export const ProjectImage = styled.img`
+width: 330.58px;
+height: 201px;
 `
