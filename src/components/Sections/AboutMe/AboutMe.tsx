@@ -18,8 +18,8 @@ export function AboutMe() {
                 <TextWrapper>
                     <SmallText about='false' text="Hello, i'm Caio César! " ></SmallText>
                     <SmallText about='false' text="I’m a self-taught front-end
-                 developer based in Salvador, Bahia. I can develop respo
-                 nsive websites from scratch and raise them into modern 
+                 developer based in Salvador, Bahia. I can develop responsive 
+                 websites from scratch and raise them into modern 
                  user-friendly web experiences." ></SmallText>
                     <SmallText about='false' text="Transforming my creativity and 
                 knowledge into websites has been my passion for over a year.

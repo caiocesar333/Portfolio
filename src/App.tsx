@@ -1,5 +1,6 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
+import { FunFacts } from './components/FunFacts/FunFacts';
 import { Navbar } from './components/Navbar/Navbar';
 import { Home } from './components/Pages/Home';
 import { Quote } from './components/Quote/Quote';
@@ -35,6 +36,7 @@ function App() {
           <Projects/>
           <Skills/>
           <AboutMe/>
+          <FunFacts/>
           <Contacts/>
           <Footer/>
         </Content>
