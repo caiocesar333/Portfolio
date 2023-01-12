@@ -19,15 +19,15 @@ export function Skills() {
             </Tab>
             <Wrapper>
                 <SkillsBoxWrapper>
-                    <SkillBox boxName='Languages' skills='TypeScript Lua Python JavaScript' />
+                    <SkillBox boxName='Main Languages' skills='TypeScript JavaScript NodeJs' />
                 </SkillsBoxWrapper>
                 <SkillsBoxWrapper>
-                    <SkillBox boxName='Databases' skills='SQLite PostgreSQL Mongo' />
-                    <SkillBox boxName='Other' skills='HTML CSS EJS SCSS REST Jinja' />
+                    <SkillBox boxName='Databases' skills='SQLite PostgreSQL Mongo Firebase' />
+                    <SkillBox boxName='Other' skills='HTML CSS SCSS ApiREST DOM' />
                 </SkillsBoxWrapper>
                 <SkillsBoxWrapper>
-                    <LargeSkillBox boxName='Tools' skills='VSCode Neovim Linux Figma XFCE Arch Git FontAwesome' />
-                    <LargeSkillBox boxName='React' skills='Vue Disnake Discord.js Flask Espress.js' />
+                    <LargeSkillBox boxName='Tools' skills='VSCode Storybook Git Figma Tailwind Styled-Components ' />
+                    <LargeSkillBox boxName="Frameworks and lib's" skills='ReactJs Espress.js Jquery SASS Bootstrap' />
                 </SkillsBoxWrapper>
             </Wrapper>
         </Container>
