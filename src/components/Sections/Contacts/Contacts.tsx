@@ -7,7 +7,7 @@ import { Container, Line, Tab, TextWrapper, Wrapper } from './style';
 
 export function Contacts() {
     return (
-        <Container>
+        <Container id='contacts'>
             <Tab>
                 <Wrapper>
                     <LargeText color='true' text='#' />

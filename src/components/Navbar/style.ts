@@ -4,8 +4,9 @@ export const Container = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* position: sticky;
-    top: 0; */
+    position: sticky;
+    top: 0;
+    background-color: #282C33;
 `;
 
 export const Logo = styled.img``;

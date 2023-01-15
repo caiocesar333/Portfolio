@@ -8,7 +8,7 @@ import gif from "../../../assets/gif/job.gif"
 export function AboutMe() {
 
     return (
-        <Container>
+        <Container id='aboutMe'>
             <Tab>
                 <Wrapper>
                     <LargeText color='true' text='#' />

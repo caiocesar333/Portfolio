@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import { useIntersection } from 'react-use';
+import gsap from 'gsap';
 import { ThemeProvider } from 'styled-components';
 import { FunFacts } from './components/FunFacts/FunFacts';
 import { Navbar } from './components/Navbar/Navbar';
@@ -24,7 +26,40 @@ const theme ={
   }
 }
 
-function App() {
+export function App() {
+
+  const sectionRef = useRef(null);
+
+  const intersection = useIntersection(sectionRef,{
+    root:null,
+    rootMargin:"0px",
+    threshold:0.5,
+  })
+
+  const fadeIn = (element:any)=>{
+    gsap.to(sectionRef.current, {
+      duration:0.5,
+      opacity:1,
+      y:-60,
+      ease:"power4.out",
+      stagger: {
+        amount: 0.3
+      }
+    })
+  }
+
+  const fadeOut = (element:any)=>{
+    gsap.to(sectionRef.current, {
+      duration:0.5,
+      opacity:0,
+      y:-20,
+      ease:"power4.out",
+    })
+  }
+
+
+  intersection && intersection.intersectionRatio < 0.2 ? fadeOut(".fadeIn") : fadeIn(".fadeIn");
+  
 
   return (
     <ThemeProvider theme={theme}>
@@ -33,7 +68,7 @@ function App() {
           <Navbar/>
           <Home/>
           <Quote/>
-          <Projects/>
+          <div className='fadeIn' ref={sectionRef}><Projects/></div>
           <Skills/>
           <AboutMe/>
           <FunFacts/>

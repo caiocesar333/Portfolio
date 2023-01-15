@@ -15,7 +15,7 @@ import { Container, LargeProjectWrapper, Line, ProjectWrapper, Tab, Wrapper } fr
 
 export function Projects() {
     return (
-        <Container>
+        <Container id='projects'>
             <Tab>
                 <Wrapper>
                     <LargeText color='true' text='#' />
