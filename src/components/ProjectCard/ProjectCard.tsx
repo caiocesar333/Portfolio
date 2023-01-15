@@ -23,7 +23,7 @@ export function ProjectCard({ img, techs, name, desc }: ProjectCardProps) {
             <Wrapper>
                 <LargeText text={name} />
                 <SmallText text={desc} about="false" />
-                <PrimaryButton text='Github <~>' />
+                <PrimaryButton nameToLink={name} text='Github <~>' />
             </Wrapper>
         </Container>
     )
